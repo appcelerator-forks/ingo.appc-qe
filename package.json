@@ -1,0 +1,52 @@
+{
+  "name": "appc-qe",
+  "description": "Generate data for QE",
+  "keywords": [
+    "appcelerator",
+    "titanium"
+  ],
+  "license": "Appcelerator Proprietary and Confidential",
+  "main": "index.js",
+  "bin": {
+    "appc-qe": "./bin/appc-qe-verified.js"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "version": "0.1.0",
+  "author": "Ingo Muschenetz. <ingo@appcelerator.com>",
+  "maintainers": [],
+  "contributors": [
+    {
+      "name": "Ingo Muschenetz",
+      "email": "ingo@appcelerator.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ingo/appc-qe-verified.git"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "jira": "git://github.com/ingo/node-jira.git",
+    "simple-statistics": "*",
+    "async": "*",
+    "moment": "*",
+    "sprintf-js": "*",
+    "cli-table": "",
+    "commander": "^2.3.0"    
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs": "^1.5.0",
+    "jscs-jsdoc": "^0.4.5",
+    "grunt-kahvesi": "0.2.0-dev2",
+    "grunt-mocha-test": "^0.12.1",
+    "jscs": "^1.11.3",
+    "load-grunt-tasks": "^3.1.0",
+    "unit.js": "*"
+  }
+}
