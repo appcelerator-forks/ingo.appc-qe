@@ -5,7 +5,6 @@ This could be better. This could be a proper CLI module. But it's not (yet). It 
 ## Usage
 
 1. Create a config.json file with the following information:
-
 `var config = {
 	host:"https://url-to-jira-host",
 	port:443,
@@ -16,5 +15,5 @@ This could be better. This could be a proper CLI module. But it's not (yet). It 
 	users:['list', 'of', 'user', 'names']
 	};
 `
-
-2. Run `appc-qe`
+2. Run `appc-qe`.
+3. Marvel in the data output.
