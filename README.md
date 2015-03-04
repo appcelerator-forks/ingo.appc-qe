@@ -7,7 +7,7 @@ This could be better. This could be a proper CLI module. But it's not (yet). It 
 1. Create a config.json file with the following information:
 
 		var config = {
-			host:"https://url-to-jira-host",
+			host:"jira-hostname",
 			port:443,
 			user:"username",
 			password:"password",
