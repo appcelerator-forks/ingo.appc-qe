@@ -1,4 +1,4 @@
-# Appcelerator QE Data Collection
+# Appcelerator QE Data Collection [![Build Status](https://travis-ci.org/ingo/appc-qe.svg)](https://travis-ci.org/ingo/appc-qe)
 
 This could be better. This could be a proper CLI module. But it's not (yet). It does, however, generate useful JIRA data.
 
